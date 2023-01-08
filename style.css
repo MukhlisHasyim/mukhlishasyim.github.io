@@ -45,6 +45,7 @@ table {
 *{
     background-color: #18181b;
 }
+/* starta nav*/
 .arahan1{
     margin-left: 15px;
 }
@@ -52,16 +53,19 @@ table {
     font-size: 20px;
     margin-right:20px;
 }
+/* end nav*/
+/* start hello*/
 .hello{
     padding:80px;
+    padding-bottom: 30px;
  color: white;
  text-align: center;
 }
+
 .uis{
     color: #6366f1 ;
     font-size: 60px;
 }
-
 .H_0{
     font-size: 60px;
 }
@@ -75,17 +79,113 @@ table {
     color: rgb(187, 187, 187);
     font-size: 15px;
 }
-/*responsive about*/
-@media screen and (min-width:360px) {
+/* end hello*/
+/* start icon*/
+.res_1{
+    
+    padding-top:  50px;
+}
+.btn-secondary{
+    background-color: #3b3d8f !important;
+    border: #18181b !important;
+    
+}
+.btn-1{
+    margin-left: 410px ;
+}
+.btn-2{
+    margin-left: -15px ;
+}
+.btn-3{
+    margin-left: -450px ;
+}
+/* end icon*/
+/* start project*/
+.pro1{
+    color:#6366f1;    font-size:2em;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.pro2{
+    width: 80%;
+    margin-top: 80px;
+}
+.pro3{
+    width: 80%;
+    margin-top: 250px;
+}
+.col{
+    padding-top: 20px;
+   
+}
+.card{
+    border:  #18181b !important;
+
+}
+.card-text{    color: whitesmoke;
+}
+/* end project*/
+/* start skill*/
+#skill{
+    padding-bottom: 30px;
+}
+.skill_1{
+    background-color:rgb(245, 245, 245);
+}
+.skill_1H{
+    background-color:whitesmoke;
+}
+.skill_2{
+    background-color:rgb(245, 245, 245);
+}
+.skill_3{
+    background-color: rgb(245, 245, 245);
+}
+
+/* end skill*/
+/* start kontak*/
+.con1{
+    color:#6366f1;    font-size:2em;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.bbtn{
+    padding-bottom: 50px;
+}
+/* end kontak*/
+/* start footer*/
+.ftr{ 
+   
+    background-color: #3b3d8f;
+}
+.text-white{
+    background-color: #3b3d8f ;
+    color: aliceblue !important;
+}
+/* end footer*/
+/* my responsive start */
+@media only screen and (min-width:300px) and (max-width:992px) {
+    /* start nav*/
+    .navbar-nav{
+        margin-left: 15px;
+    }
+     /* end nav*/
+      /*start hello*/
+    .hello{
+        padding:80px;
+        padding-bottom: 30px;
+     color: white;
+     text-align: center;
+    }
     .uis{
         color: #6366f1 ;
     }
     .H_0{
-        font-size: 20px;
+        font-size: 30px;
         color: white;
     }
     .uis{
-        font-size: 20px;
+        font-size: 30px;
     }
     .H_1{
         margin: auto;
@@ -95,32 +195,56 @@ table {
         font-size: 15px;
         padding-bottom: 5px;
 }
-.btn1 .btn2 .btn3{
-    margin:auto
+ /*end  hello*/
+  /*start  icon*/
+.btn-1{
+    margin-left: 50px;
 }
+.btn-2{
+    margin-left: -3px;
+    margin-top: -25px;
 }
-@media screen and (min-width :992px) {
-    .hello{
-        padding:80px;
-     color: white;
-     text-align: center;
-    }
-    .uis{
-        color: #6366f1 ;
-        font-size: 60px;
-    }
-    
-    .H_0{
-        font-size: 60px;
-    }
-    .H_1{
-        margin-left:100px;
-        margin-right:100px;
-        color: rgb(187, 187, 187);
-        font-size: 15px;
-    }
-    .H_2{
-        font-size: 60px;
-        padding-bottom: 20px;
-    }
+.btn-3{
+    margin-left: -20px;
 }
+.btni {
+   padding-left: 50px !important;
+}
+ /*end icon*/
+ /*start project*/
+.card{
+    border:#18181b!important ;
+}
+.col-md-4{
+    margin-left: 45px;
+    width: 300px !important;
+    height: 300px !important;
+}
+/*end project*/
+/*starts skill*/
+.skill_1{
+    margin: 10px !important;
+}
+.skill_2{
+    margin: 10px !important;
+}
+.skill_3{
+    margin: 10px !important;
+}
+.skill_1H{
+    padding: 10px;
+}
+/*end skill*/
+/*start contact*/
+.btn-secondary{
+    background-color: #3b3d8f !important;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+.btn-ctn{
+    margin-bottom:40px;
+}
+/*end contact*/
+
+}
+/*By Uisss*/
